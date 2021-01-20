@@ -12,7 +12,10 @@ namespace Prototype
 
         private Signleton() { }
 
-
+        /// <summary>
+        /// 获取单例对象
+        /// </summary>
+        /// <returns></returns>
         public static Signleton GetInstance()
         {
             if (instance == null)
